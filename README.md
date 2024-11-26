@@ -1,13 +1,13 @@
-#### Assessment and TaskManager Contracts
+## Assessment and TaskManager Contracts
 This project demonstrates the Solidity contract: Assessment for managing account balances and for managing simple task lists. The contract is deployed and can be interacted with through a React.js frontend. This showcases basic Ethereum smart contract functionalities.
 
-### Description
+## Description
 The project includes a contract which has two components:
 
 Assessment: A component for managing deposits, withdrawals, and balances. It ensures secure and valid operations while maintaining consistent states.
 TaskManager: A component for managing tasks with functionality to add, mark as completed, and retrieve tasks.
 
-####Features
+## Features
 Assessment Component
 Deposit Function: Allows the owner to deposit funds into the account while validating ownership.
 Withdraw Function: Allows the owner to withdraw funds, ensuring sufficient balance.
@@ -18,8 +18,8 @@ Add Task: Adds a new task to the task list.
 Complete Task: Marks a task as completed based on its index.
 Retrieve Tasks: Fetches all tasks along with their completion statuses.
 
-###Code Overview
-####Assessment Contract
+## Code Overview
+### Assessment Contract
 ```
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
@@ -82,15 +82,15 @@ contract Assessment {
     }
 }
 ```
-####Frontend Interaction
+### Frontend Interaction
 The contracts are connected to a React.js frontend for user interaction. The index.js file provides separate pages for the Assessment and TaskManager components. Users can interact with them via MetaMask.
 
-####Executing Program
+### Executing Program
 Compile Contract: Use Hardhat to compile the Assessment and TaskManager.
 
 Deploy Contract: Run the deploy.js script to deploy the contract to the desired network.
 
 Run Frontend: Use the provided React.js application to connect to the contract via MetaMask and interact with their functions.
 
-####Authors
+### Authors
 Shawn Aaron Quirante
