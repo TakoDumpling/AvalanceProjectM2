@@ -20,7 +20,7 @@ Retrieve Tasks: Fetches all tasks along with their completion statuses.
 
 ## Code Overview
 ### Assessment Contract
-```
+```solidity
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
